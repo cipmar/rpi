@@ -58,7 +58,7 @@ try:
         duo(bluePWM, greenPWM)
         all(bluePWM, redPWM, greenPWM)
 except KeyboardInterrupt:
-        pass
+    pass
 
 GPIO.cleanup()
 
